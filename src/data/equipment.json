@@ -1,0 +1,2034 @@
+[
+    {
+        "equipmentId": 1,
+        "description": "Aloha Shirt",
+        "url": "https://splatoonwiki.org/wiki/Aloha_Shirt",
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/a/a0/S2_Gear_Clothing_Aloha_Shirt.png",
+        "equipmentTypeId": 1,
+        "brandId": 1
+    },
+    {
+        "equipmentId": 2,
+        "description": "Anchor Life Vest",
+        "url": "https://splatoonwiki.org/wiki/Anchor_Life_Vest",
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/1/1b/S2_Gear_Clothing_Anchor_Life_Vest.png",
+        "equipmentTypeId": 1,
+        "brandId": 2
+    },
+    {
+        "equipmentId": 3,
+        "description": "Anchor Sweat",
+        "url": "https://splatoonwiki.org/wiki/Anchor_Sweat",
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/a/a7/S2_Gear_Clothing_Anchor_Sweat.png",
+        "equipmentTypeId": 1,
+        "brandId": 3
+    },
+    {
+        "equipmentId": 4,
+        "description": "Annaki Blue Cuff",
+        "Brand": "Annaki",
+        "Availability": "4,800",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": 5,
+        "description": "Annaki Drive Tee",
+        "Brand": "Annaki",
+        "Availability": "5,500",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": 6,
+        "description": "Annaki Evolution Tee",
+        "Brand": "Annaki",
+        "Availability": "8,800",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": 7,
+        "description": "Annaki Flannel Hoodie",
+        "Brand": "Annaki",
+        "Availability": "9,999",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": 8,
+        "description": "Annaki Polpo-Pic Tee",
+        "Brand": "Annaki",
+        "Availability": "6,660",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": 9,
+        "description": "Annaki Red Cuff",
+        "Brand": "Annaki",
+        "Availability": "4,800",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": 10,
+        "description": "Annaki Yellow Cuff",
+        "Brand": "Annaki",
+        "Availability": "4,800",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Armor Jacket Replica",
+        "Brand": "Cuttlegear",
+        "Availability": "Marie",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "B-ball Jersey (Away)",
+        "Brand": "Zink",
+        "Availability": "800",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "B-ball Jersey (Home)",
+        "Brand": "Zink",
+        "Availability": "2,300",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Baby-Jelly Shirt",
+        "Brand": "Splash Mob",
+        "Availability": "1,350",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Baby-Jelly Shirt & Tie",
+        "Brand": "Splash Mob",
+        "Availability": "3,800",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Baseball Jersey",
+        "Brand": "Firefin",
+        "Availability": "10,000",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Basic Tee",
+        "brandId": 3,
+        "Availability": "",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Berry Ski Jacket",
+        "Brand": "Inkline",
+        "Availability": "3,900",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Birded Corduroy Jacket",
+        "Brand": "Zekko",
+        "Availability": "10,400",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black 8-Bit FishFry",
+        "Brand": "Firefin",
+        "Availability": "600",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Anchor Tee",
+        "brandId": 3,
+        "Availability": "2,800",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Baseball LS",
+        "Brand": "Rockenberg",
+        "Availability": "800",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Cuttlegear LS",
+        "Brand": "Cuttlegear",
+        "Availability": "5,800",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Hoodie",
+        "Brand": "Skalop",
+        "Availability": "2,900",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Inky Rider",
+        "Brand": "Rockenberg",
+        "Availability": "12,100",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Layered LS",
+        "brandId": 3,
+        "Availability": "500",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black LS",
+        "Brand": "Zekko",
+        "Availability": "3,000",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Polo",
+        "Brand": "Zekko",
+        "Availability": "500",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Squideye",
+        "Brand": "Tentatek",
+        "Availability": "500",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Tee",
+        "brandId": 3,
+        "Availability": "400",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Urchin Rock Tee",
+        "Brand": "Rockenberg",
+        "Availability": "850",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black V-Neck Tee",
+        "brandId": 3,
+        "Availability": "3,800",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Black Velour Octoking Tee",
+        "Brand": "Enperry",
+        "Availability": "2,950",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Blue 16-Bit FishFry",
+        "Brand": "Firefin",
+        "Availability": "3,750",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Blue Peaks Tee",
+        "Brand": "Inkline",
+        "Availability": "400",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Blue Sailor Suit",
+        "brandId": 1,
+        "Availability": "11,000",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Blue Tentatek Tee",
+        "Brand": "Tentatek",
+        "Availability": "3,100",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Brown FA-11 Bomber",
+        "brandId": 1,
+        "Availability": "7-Eleven",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Camo Layered LS",
+        "brandId": 3,
+        "Availability": "600",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Camo Zip Hoodie",
+        "Brand": "Firefin",
+        "Availability": "9,000",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Carnivore Tee",
+        "Brand": "Firefin",
+        "Availability": "500",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Chili Octo Aloha",
+        "Brand": "Krak-On",
+        "Availability": "4,850",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Chili-Pepper Ski Jacket",
+        "Brand": "Inkline",
+        "Availability": "7,800",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Chilly Mountain Coat",
+        "Brand": "Inkline",
+        "Availability": "7,900",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Chirpy Chips Band Tee",
+        "Brand": "Rockenberg",
+        "Availability": "900",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Choco Layered LS",
+        "Brand": "Takoroka",
+        "Availability": "1,400",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Crimson Parashooter",
+        "Brand": "Annaki",
+        "Availability": "9,200",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Crustwear XXL",
+        "brandId": 2,
+        "Availability": "Salmon Run",
+        "Ability": "",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Custom Painted F-3",
+        "brandId": 1,
+        "Availability": "9,700",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Cycle King Jersey",
+        "Brand": "Tentatek",
+        "Availability": "8,900",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Cycling Shirt",
+        "Brand": "Zink",
+        "Availability": "2,900",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Dakro Golden Tee",
+        "Brand": "Zink",
+        "Availability": "1,010",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Dakro Nana Tee",
+        "Brand": "Zink",
+        "Availability": "1,010",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Dark Bomber Jacket",
+        "Brand": "Toni Kensa",
+        "Availability": "12,800",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Dark Urban Vest",
+        "Brand": "Firefin",
+        "Availability": "10,000",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Deep-Octo Satin Jacket",
+        "Brand": "Zekko",
+        "Availability": "12,300",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Dev Uniform",
+        "brandId": 2,
+        "Availability": "Salmon Run",
+        "Ability": "",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Dots-On-Dots Shirt",
+        "Brand": "Skalop",
+        "Availability": "7,650",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Enchanted Robe",
+        "Brand": "amiibo",
+        "Availability": "Octoling Girl",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Eggplant Mountain Coat",
+        "Brand": "Inkline",
+        "Availability": "7,600",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "FA-01 Jacket",
+        "brandId": 1,
+        "Availability": "10,100",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "FA-01 Reversed",
+        "brandId": 1,
+        "Availability": "10,100",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "FC Albacore",
+        "Brand": "Takoroka",
+        "Availability": "1,200",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Firefin Navy Sweat",
+        "Brand": "Firefin",
+        "Availability": "2,500",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Firewave Tee",
+        "Brand": "Skalop",
+        "Availability": "1,250",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Fishing Vest",
+        "Brand": "Inkline",
+        "Availability": "4,200",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Forest Vest",
+        "Brand": "Inkline",
+        "Availability": "11,000",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Forge Inkling Parka",
+        "brandId": 1,
+        "Availability": "2,900",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Forge Octarian Jacket",
+        "brandId": 1,
+        "Availability": "2,700",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Fresh Fish Gloves",
+        "Brand": "amiibo",
+        "Availability": "Octoling Octopus",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Fresh Octo Tee",
+        "Brand": "Cuttlegear",
+        "Availability": "Octo Expansion",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Friend Tee",
+        "brandId": 3,
+        "Availability": "1,200",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Front Zip Vest",
+        "Brand": "Toni Kensa",
+        "Availability": "5,500",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Fugu Tee",
+        "Brand": "Firefin",
+        "Availability": "750",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Garden Gear",
+        "brandId": 2,
+        "Availability": "Salmon Run",
+        "Ability": "",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Grape Hoodie",
+        "Brand": "Enperry",
+        "Availability": "1,100",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Grape Tee",
+        "Brand": "Skalop",
+        "Availability": "400",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Gray 8-Bit FishFry",
+        "Brand": "Firefin",
+        "Availability": "800",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Gray College Sweat",
+        "Brand": "Splash Mob",
+        "Availability": "800",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Gray FA-11 Bomber",
+        "brandId": 1,
+        "Availability": "7-Eleven",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Gray Hoodie",
+        "Brand": "Skalop",
+        "Availability": "1,900",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Gray Mixed Shirt",
+        "Brand": "Zekko",
+        "Availability": "2,800",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Gray Vector Tee",
+        "Brand": "Takoroka",
+        "Availability": "500",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Green Cardigan",
+        "Brand": "Splash Mob",
+        "Availability": "1,700",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Green Striped LS",
+        "Brand": "Inkline",
+        "Availability": "700",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Green Tee",
+        "brandId": 1,
+        "Availability": "1,200",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Green V-Neck Limited Tee",
+        "brandId": 3,
+        "Availability": "7-Eleven",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Green Velour Octoking Tee",
+        "Brand": "Enperry",
+        "Availability": "1,450",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Green Zip Hoodie",
+        "Brand": "Firefin",
+        "Availability": "2,800",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Green-Check Shirt",
+        "Brand": "Zekko",
+        "Availability": "2,000",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Half-Sleeve Sweater",
+        "Brand": "Toni Kensa",
+        "Availability": "4,100",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Herbivore Tee",
+        "Brand": "Firefin",
+        "Availability": "500",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Hero Hoodie Replica",
+        "Brand": "Cuttlegear",
+        "Availability": "Octo Canyon",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Hero Jacket Replica",
+        "Brand": "Cuttlegear",
+        "Availability": "Callie",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Hightide Era Band Tee",
+        "Brand": "Rockenberg",
+        "Availability": "900",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Hothouse Hoodie",
+        "Brand": "Skalop",
+        "Availability": "3,800",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Hula Punk Shirt",
+        "Brand": "Annaki",
+        "Availability": "5,000",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Icewave Tee",
+        "Brand": "Skalop",
+        "Availability": "1,250",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Ink-Wash Shirt",
+        "Brand": "Toni Kensa",
+        "Availability": "4,900",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Inkfall Shirt",
+        "Brand": "Toni Kensa",
+        "Availability": "4,900",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Inkopolis Squaps Jersey",
+        "Brand": "Zink",
+        "Availability": "1,250",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Ivory Peaks Tee",
+        "Brand": "Inkline",
+        "Availability": "400",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Juice Parka",
+        "brandId": 2,
+        "Availability": "Salmon Run",
+        "Ability": "",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Kensa Coat",
+        "Brand": "Toni Kensa",
+        "Availability": "9,200",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Khaki 16-Bit FishFry",
+        "Brand": "Firefin",
+        "Availability": "3,750",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "King Jersey",
+        "Brand": "Enperry",
+        "Availability": "3,100",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Krak-On 528",
+        "Brand": "Krak-On",
+        "Availability": "800",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Kung-Fu Zip-Up",
+        "Brand": "Toni Kensa",
+        "Availability": "10,280",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Layered Anchor LS",
+        "brandId": 3,
+        "Availability": "4,000",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Layered Vector LS",
+        "Brand": "Takoroka",
+        "Availability": "1,200",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "League Tee",
+        "brandId": 3,
+        "Availability": "3,800",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Light Bomber Jacket",
+        "Brand": "Toni Kensa",
+        "Availability": "12,800",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Lime Easy-Stripe Shirt",
+        "Brand": "Splash Mob",
+        "Availability": "3,800",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Linen Shirt",
+        "Brand": "Splash Mob",
+        "Availability": "700",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Lob-Stars Jersey",
+        "Brand": "Tentatek",
+        "Availability": "4,650",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Logo Aloha Shirt",
+        "Brand": "Zekko",
+        "Availability": "2,900",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Lumberjack Shirt",
+        "Brand": "Rockenberg",
+        "Availability": "800",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Marinated Top",
+        "Brand": "amiibo",
+        "Availability": "Marina",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Matcha Down Jacket",
+        "Brand": "Inkline",
+        "Availability": "9,100",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Mecha Body - AKM",
+        "brandId": 3,
+        "Availability": "CoroCoro Comic",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Milky Eminence Jacket",
+        "Brand": "Enperry",
+        "Availability": "CoroCoro Comic",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Mint Tee",
+        "Brand": "Skalop",
+        "Availability": "400",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Missus Shrug Tee",
+        "Brand": "Krak-On",
+        "Availability": "9,200",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Mister Shrug Tee",
+        "Brand": "Krak-On",
+        "Availability": "9,200",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Moist Ghillie Suit",
+        "brandId": 1,
+        "Availability": "8,500",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Mountain Vest",
+        "Brand": "Inkline",
+        "Availability": "11,000",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "N-Pacer Sweat",
+        "Brand": "Enperry",
+        "Availability": "7,800",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Navy College Sweat",
+        "Brand": "Splash Mob",
+        "Availability": "800",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Navy Deca Logo Tee",
+        "Brand": "Zink",
+        "Availability": "1,200",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Navy Eminence Jacket",
+        "Brand": "Enperry",
+        "Availability": "10,500",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Navy King Tank",
+        "Brand": "Enperry",
+        "Availability": "600",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Navy Striped LS",
+        "Brand": "Splash Mob",
+        "Availability": "1,050",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Negative Longcuff Sweater",
+        "Brand": "Toni Kensa",
+        "Availability": "11,800",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Neo Octoling Armor",
+        "Brand": "Cuttlegear",
+        "Availability": "Octo Expansion",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "North-Country Parka",
+        "brandId": 2,
+        "Availability": "Salmon Run",
+        "Ability": "",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Null Armor Replica",
+        "Brand": "Cuttlegear",
+        "Availability": "Octo Expansion",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Octarian Retro",
+        "Brand": "Cuttlegear",
+        "Availability": "5,000",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Octo Layered LS",
+        "Brand": "Cuttlegear",
+        "Availability": "Octo Expansion",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Octo Support Hoodie",
+        "brandId": 3,
+        "Availability": "Famitsu promotional gear",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Octo Tee",
+        "Brand": "Cuttlegear",
+        "Availability": "8,888",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Octobowler Shirt",
+        "Brand": "Krak-On",
+        "Availability": "2,100",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Octoking HK Jersey",
+        "Brand": "Enperry",
+        "Availability": "5,800",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Office Attire",
+        "brandId": 2,
+        "Availability": "Salmon Run",
+        "Ability": "",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Old-Timey Clothes",
+        "Brand": "Cuttlegear",
+        "Availability": "Octo Expansion",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Olive Ski Jacket",
+        "Brand": "Inkline",
+        "Availability": "11,000",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Olive Zekko Parka",
+        "Brand": "Zekko",
+        "Availability": "3,800",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Online Jersey",
+        "brandId": 2,
+        "Availability": "Nintendo Switch Online",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Orange Cardigan",
+        "Brand": "Splash Mob",
+        "Availability": "700",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Panda Kung-Fu Zip-Up",
+        "Brand": "Toni Kensa",
+        "Availability": "10,280",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Part-Time Pirate",
+        "Brand": "Tentatek",
+        "Availability": "800",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Pearl Tee",
+        "Brand": "Skalop",
+        "Availability": "400",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Pearlescent Hoodie",
+        "Brand": "amiibo",
+        "Availability": "Pearl",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Pink Easy-Stripe Shirt",
+        "Brand": "Splash Mob",
+        "Availability": "3,800",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Pink Hoodie",
+        "Brand": "Splash Mob",
+        "Availability": "3,400",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Pirate-Stripe Tee",
+        "Brand": "Splash Mob",
+        "Availability": "700",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Positive Longcuff Sweater",
+        "Brand": "Toni Kensa",
+        "Availability": "10,800",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Power Armor",
+        "Brand": "amiibo",
+        "Availability": "Inkling Squid",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Power Armor Mk I",
+        "Brand": "amiibo",
+        "Availability": "Inkling Squid",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Prune Parashooter",
+        "Brand": "Annaki",
+        "Availability": "7,800",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Pullover Coat",
+        "Brand": "Toni Kensa",
+        "Availability": "13,200",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Purple Camo LS",
+        "Brand": "Takoroka",
+        "Availability": "600",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Rainy-Day Tee",
+        "Brand": "Krak-On",
+        "Availability": "300",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Record Shop Look EP",
+        "brandId": 2,
+        "Availability": "Salmon Run",
+        "Ability": "",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Red Cuttlegear LS",
+        "Brand": "Cuttlegear",
+        "Availability": "5,800",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Red Hula Punk with Tie",
+        "Brand": "Annaki",
+        "Availability": "9,000",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Red Tentatek Tee",
+        "Brand": "Tentatek",
+        "Availability": "3,100",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Red V-Neck Limited Tee",
+        "brandId": 3,
+        "Availability": "7-Eleven",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Red Vector Tee",
+        "Brand": "Takoroka",
+        "Availability": "500",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Red-Check Shirt",
+        "Brand": "Zekko",
+        "Availability": "2,000",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Reel Sweat",
+        "Brand": "Zekko",
+        "Availability": "900",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Reggae Tee",
+        "Brand": "Skalop",
+        "Availability": "8,200",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Retro Gamer Jersey",
+        "Brand": "Zink",
+        "Availability": "9,000",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Retro Sweat",
+        "brandId": 3,
+        "Availability": "9,000",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Rockenberg Black",
+        "Brand": "Rockenberg",
+        "Availability": "800",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Rockenberg White",
+        "Brand": "Rockenberg",
+        "Availability": "2,500",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Rockin' Leather Jacket",
+        "Brand": "Annaki",
+        "Availability": "10,666",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Rodeo Shirt",
+        "Brand": "Krak-On",
+        "Availability": "750",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Round-Collar Shirt",
+        "Brand": "Rockenberg",
+        "Availability": "1,600",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Sage Polo",
+        "Brand": "Splash Mob",
+        "Availability": "400",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Sailor-Stripe Tee",
+        "Brand": "Splash Mob",
+        "Availability": "700",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Samurai Jacket",
+        "Brand": "amiibo",
+        "Availability": "Inkling Boy",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "School Cardigan",
+        "Brand": "amiibo",
+        "Availability": "Inkling Girl",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "School Jersey",
+        "Brand": "Zink",
+        "Availability": "3,000",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "School Uniform",
+        "Brand": "amiibo",
+        "Availability": "Inkling Girl",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Sennyu Suit",
+        "Brand": "Cuttlegear",
+        "Availability": "CoroCoro Comic",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Shirt & Tie",
+        "Brand": "Splash Mob",
+        "Availability": "8,400",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Shirt with Blue Hoodie",
+        "Brand": "Splash Mob",
+        "Availability": "2,900",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Short Knit Layers",
+        "Brand": "Toni Kensa",
+        "Availability": "9,850",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Shrimp-Pink Polo",
+        "Brand": "Splash Mob",
+        "Availability": "550",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Silver Tentatek Vest",
+        "Brand": "Tentatek",
+        "Availability": "6,200",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Sky-Blue Squideye",
+        "Brand": "Tentatek",
+        "Availability": "500",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Slash King Tank",
+        "Brand": "Enperry",
+        "Availability": "450",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Slipstream United",
+        "Brand": "Takoroka",
+        "Availability": "1,800",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Splatfest Tee",
+        "brandId": 3,
+        "Availability": "Splatfest",
+        "Ability": "Ability Doubler",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squid Satin Jacket",
+        "Brand": "Zekko",
+        "Availability": "9,200",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squid Squad Band Tee",
+        "Brand": "Rockenberg",
+        "Availability": "900",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squid Yellow Layered LS",
+        "brandId": 3,
+        "Availability": "4,010",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squid-Pattern Waistcoat",
+        "Brand": "Krak-On",
+        "Availability": "800",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squid-Stitch Tee",
+        "Brand": "Skalop",
+        "Availability": "400",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squiddor Polo",
+        "brandId": 2,
+        "Availability": "Salmon Run",
+        "Ability": "",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squidmark LS",
+        "brandId": 3,
+        "Availability": "600",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squidmark Sweat",
+        "brandId": 3,
+        "Availability": "800",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squidstar Waistcoat",
+        "Brand": "Krak-On",
+        "Availability": "650",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Squinja Suit",
+        "Brand": "amiibo",
+        "Availability": "Inkling Boy",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "SRL Coat",
+        "brandId": 2,
+        "Availability": "Salmon Run",
+        "Ability": "",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Steel Platemail",
+        "Brand": "amiibo",
+        "Availability": "Octoling Boy",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Striped Peaks LS",
+        "Brand": "Inkline",
+        "Availability": "700",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Striped Rugby",
+        "Brand": "Takoroka",
+        "Availability": "2,300",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Striped Shirt",
+        "Brand": "Splash Mob",
+        "Availability": "2,200",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Sunny-Day Tee",
+        "Brand": "Krak-On",
+        "Availability": "300",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "SWC Logo Tee",
+        "brandId": 3,
+        "Availability": "Nintendo Switch News",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Takoroka Crazy Baseball LS",
+        "Brand": "Takoroka",
+        "Availability": "4,200",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Takoroka Galactic Tie Dye",
+        "Brand": "Takoroka",
+        "Availability": "850",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Takoroka Jersey",
+        "Brand": "Takoroka",
+        "Availability": "8,960",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Takoroka Nylon Vintage",
+        "Brand": "Takoroka",
+        "Availability": "9,500",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Takoroka Rainbow Tie Dye",
+        "Brand": "Takoroka",
+        "Availability": "850",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Takoroka Windcrusher",
+        "Brand": "Takoroka",
+        "Availability": "8,500",
+        "Ability": "Main Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Tentatek Slogan Tee",
+        "Brand": "Tentatek",
+        "Availability": "1,600",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Toni K. Baseball Jersey",
+        "Brand": "Toni Kensa",
+        "Availability": "9,650",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Tricolor Rugby",
+        "Brand": "Takoroka",
+        "Availability": "700",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Tumeric Zekko Coat",
+        "Brand": "Zekko",
+        "Availability": "4,600",
+        "Ability": "Thermal Ink",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Urchins Jersey",
+        "Brand": "Zink",
+        "Availability": "700",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Varsity Baseball LS",
+        "Brand": "Splash Mob",
+        "Availability": "700",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Varsity Jacket",
+        "Brand": "Zekko",
+        "Availability": "11,500",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Vintage Check Shirt",
+        "Brand": "Rockenberg",
+        "Availability": "9,000",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Wet Floor Band Tee",
+        "Brand": "Rockenberg",
+        "Availability": "900",
+        "Ability": "Swim Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Whale-Knit Sweater",
+        "Brand": "Splash Mob",
+        "Availability": "9,650",
+        "Ability": "Run Speed Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White 8-Bit FishFry",
+        "Brand": "Firefin",
+        "Availability": "800",
+        "Ability": "Sub Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Anchor Tee",
+        "brandId": 3,
+        "Availability": "2,800",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Baseball LS",
+        "Brand": "Rockenberg",
+        "Availability": "800",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Deca Logo Tee",
+        "Brand": "Zink",
+        "Availability": "1,200",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Inky Rider",
+        "Brand": "Rockenberg",
+        "Availability": "12,800",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White King Tank",
+        "Brand": "Enperry",
+        "Availability": "600",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Layered LS",
+        "brandId": 3,
+        "Availability": "500",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Leather F-3",
+        "brandId": 1,
+        "Availability": "8,900",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White LS",
+        "brandId": 3,
+        "Availability": "600",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Sailor Suit",
+        "brandId": 1,
+        "Availability": "3,000",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Shirt",
+        "Brand": "Splash Mob",
+        "Availability": "7,500",
+        "Ability": "Ink Recovery Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Striped LS",
+        "Brand": "Splash Mob",
+        "Availability": "2,300",
+        "Ability": "Quick Respawn",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Tee",
+        "brandId": 3,
+        "Availability": "400",
+        "Ability": "Ink Saver (Sub)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White Urchin Rock Tee",
+        "Brand": "Rockenberg",
+        "Availability": "850",
+        "Ability": "Ink Saver (Main)",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "White V-Neck Tee",
+        "brandId": 3,
+        "Availability": "3,800",
+        "Ability": "Special Saver",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Yellow Layered LS",
+        "brandId": 3,
+        "Availability": "500",
+        "Ability": "Quick Super Jump",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Yellow Urban Vest",
+        "Brand": "Firefin",
+        "Availability": "4,100",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Zapfish Satin Jacket",
+        "Brand": "Zekko",
+        "Availability": "2,900",
+        "Ability": "Special Charge Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Zekko Baseball LS",
+        "Brand": "Zekko",
+        "Availability": "800",
+        "Ability": "Bomb Defense Up DX",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Zekko Hoodie",
+        "Brand": "Zekko",
+        "Availability": "2,800",
+        "Ability": "Ninja Squid",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Zekko Jade Coat",
+        "Brand": "Zekko",
+        "Availability": "3,600",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Zekko Long Carrot Tee",
+        "Brand": "Zekko",
+        "Availability": "1,800",
+        "Ability": "Ink Resistance Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Zekko Long Radish Tee",
+        "Brand": "Zekko",
+        "Availability": "1,450",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Zekko Redleaf Coat",
+        "Brand": "Zekko",
+        "Availability": "2,600",
+        "Ability": "Haunt",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Zink Layered LS",
+        "Brand": "Zink",
+        "Availability": "600",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "Zink LS",
+        "Brand": "Zink",
+        "Availability": "500",
+        "Ability": "Special Power Up",
+        "Rarity": ""
+    },
+    {
+        "equipmentId": "",
+        "description": "ω-3 Tee",
+        "Brand": "Firefin",
+        "Availability": "1,200",
+        "Ability": "Respawn Punisher",
+        "Rarity": ""
+    }
+]

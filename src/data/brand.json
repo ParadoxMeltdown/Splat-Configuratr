@@ -1,0 +1,20 @@
+[
+    {
+        "brandId": 1,
+        "description": "Forge",
+        "url": "https://splatoonwiki.org/wiki/Forge",
+        "imgURL": "https://cdn.wikimg.net/en/splatoonwiki/images/thumb/8/80/S2_Brand_Forge.png/64px-S2_Brand_Forge.png"
+    },
+    {
+        "brandId": 2,
+        "description": "Grizzco",
+        "url": "https://splatoonwiki.org/wiki/Grizzco",
+        "imgURL": "https://cdn.wikimg.net/en/splatoonwiki/images/thumb/1/15/S2_Brand_Grizzco.png/64px-S2_Brand_Grizzco.png"
+    },
+    {
+        "brandId": 3,
+        "description": "SquidForce",
+        "url": "https://splatoonwiki.org/wiki/SquidForce",
+        "imgURL": "https://cdn.wikimg.net/en/splatoonwiki/images/thumb/d/d4/S2_Brand_SquidForce.png/64px-S2_Brand_SquidForce.png"
+    }
+]

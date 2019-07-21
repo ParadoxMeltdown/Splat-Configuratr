@@ -1,0 +1,30 @@
+[
+    {
+        "eyeColorId": 1,
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/1/1e/S_Customization_Eye_1.png"
+    },
+    {
+        "eyeColorId": 2,
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/d/d6/S_Customization_Eye_2.png"
+    },
+    {
+        "eyeColorId": 3,
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/b/b9/S_Customization_Eye_3.png"
+    },
+    {
+        "eyeColorId": 4,
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/0/0d/S_Customization_Eye_4.png"
+    },
+    {
+        "eyeColorId": 5,
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/9/95/S_Customization_Eye_5.png"
+    },
+    {
+        "eyeColorId": 6,
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/9/94/S_Customization_Eye_6.png"
+    },
+    {
+        "eyeColorId": 7,
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/b/bb/S_Customization_Eye_7.png"
+    }
+]

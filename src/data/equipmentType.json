@@ -1,0 +1,14 @@
+[
+    {
+        "equipmentTypeId": 1,
+        "description": "Clothing"
+    },
+    {
+        "equipmentTypeId": 2,
+        "description": "Headgear"
+    },
+    {
+        "equipmentTypeId": 3,
+        "description": "Shoes"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "genderId": 1,
+        "description": "Male",
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/9/92/S_Customization_Hair_Male_Front.png"
+    },
+    {
+        "genderId": 1,
+        "description": "Female",
+        "imageURL": "https://cdn.wikimg.net/en/splatoonwiki/images/7/73/S_Customization_Hair_Female_Front.png"
+    }
+]
