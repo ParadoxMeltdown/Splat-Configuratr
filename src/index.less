@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card-splat {
+    &.card {
+        border-radius: 2.5rem !important;
+        background-color: rgba(255,255,255,.55);
+    }
+    & hr {
+      border-top: 5px solid #343a40;
+      margin-top: 0.5rem;
+    }
+}
+
+@backColor: #20d6ae;
+@foreColor: #1cc29e;
+
+.btn-splat {
+  // Using percentages prevents weird rendering, using fixed forces positioning to work, so you can align gradients across elements
+    background: repeating-linear-gradient(
+        45deg,
+        @backColor,
+        @backColor 25%,
+        shade(@backColor,10%) 25%,
+        shade(@backColor,10%) 50%,
+        @backColor 50%
+    ) top left fixed;
+  // Then just define how big the background should be
+    background-size: 30px 30px;
+  .current {
+    width: 25%;
+    @include animation(width 5s infinite);
+    background: repeating-linear-gradient(
+      45deg,
+      @foreColor,
+      @foreColor 25%,
+      shade(@foreColor,10%) 25%,
+      shade(@foreColor,10%) 50%,
+      @foreColor 50%
+    ) top left fixed;
+    background-size: 30px 30px;
+  }
+}
