@@ -7,24 +7,39 @@ class Equipment extends React.Component {
     constructor(props) {
         super(props);
         this.props = {
-            equipment: []
+            equipment: {
+                "equipmentId":0,
+                "description":"",
+                "imageURL":"",
+                "brand":"",
+            },
+            title: "",
         }
     }
 
     render() {
         let equipmentItem = this.props.equipment;
-        if(equipmentItem == null) {
-            return;
+        if(equipmentItem == undefined) {
+            return null;
         }
         return (
-            <div>
-                <div className="col-md-12">
-                    <div className="card mx-1">
-                        <div className="card-body p-1">
-                            <div className="d-flex justify-content-between">
-                                <img src={equipmentItem.url} alt={equipmentItem.description} />
-                                <span className="font-weight-bold h5">{ equipmentItem.description }</span>
-                            </div>
+            <div className="col-sm-4">
+                <div className="card card-splat my-2">
+                    <img className="card-img-top p-4" src={equipmentItem.imageURL} alt={equipmentItem.description} />
+                    <div className="card-body p-3 text-center">
+                        <div className="background-black bg-dark text-white">
+                            {this.props.title}
+                        </div>
+                        <div className="h3">
+                            <span className="font-weight-bold">{equipmentItem.description}</span>
+                            <hr />
+                        </div>
+                        <div className="h6">
+                            <span className="">{equipmentItem.brand}&nbsp;</span>
+                        </div>
+                        <br />
+                        <div>
+                            <a className="btn btn-block btn-splat rounded-pill text-white"><span className="h4 text-bold">Randomize</span></a>
                         </div>
                     </div>
                 </div>

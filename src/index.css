@@ -1,13 +1,27 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.card-splat.card {
+  border-radius: 2.5rem !important;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+.card-splat hr {
+  border-top: 5px solid #343a40;
+  margin-top: 0.5rem;
+}
+.btn-splat {
+  background: repeating-linear-gradient(45deg, #20d6ae, #20d6ae 25%, #1dc19d 25%, #1dc19d 50%, #20d6ae 50%) top left fixed;
+  background-size: 30px 30px;
+}
+.btn-splat .current {
+  width: 25%;
+  @include animation(width 5s infinite);
+  background: repeating-linear-gradient(45deg, #1cc29e, #1cc29e 25%, #19af8e 25%, #19af8e 50%, #1cc29e 50%) top left fixed;
+  background-size: 30px 30px;
 }

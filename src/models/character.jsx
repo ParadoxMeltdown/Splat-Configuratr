@@ -1,21 +1,34 @@
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
+
+/* Data */
 import DataEquipmentShirt from '../data/equipment-shirt.json'
 import DataEquipmentHat from '../data/equipment-hat.json'
 import DataEquipmentShoes from '../data/equipment-shoes.json'
+import DataFeatureEyeColor from '../data/eyeColor.json'
+import DataFeatureGender from '../data/gender.json'
+import DataFeatureSkin from '../data/skin.json'
+
+
 import Equipment from './equipment'
+import Feature from './feature'
+
+
+var featureGenderId = 1
+var featureEyeColorId = 1;
+var featureSkinId = 1;
 
 class Character extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             equipmentId: 0,
-            genderId: 0,
-            speciesId: 0,
-            skinId: 0,
-            eyeColorId: 0,
+            species: {},
             hairStyleId: 0,
             legwearId: 0,
+            featureGender: {},
+            featureSkin: {},
+            featureEyeColor: {},
             equipmentHat: {},
             equipmentShirt: {},
             equipmentShoes: {},
@@ -30,31 +43,68 @@ class Character extends React.Component {
         //Clothes
 
         return (
-            <div className="col-md-6">
-                <div className="row">
-                    <a className="btn btn-primary btn-light btn-block" onClick={this.randomize}>Randomize</a>
-                    <Equipment equipment={this.state.equipmentHat} />
-                    <Equipment equipment={this.state.equipmentShirt} />
-                    <Equipment equipment={this.state.equipmentShoes} />
+            <div>
+                <div className="col-md-12">
+                    <div className="d-flex justify-content-between">
+                        <span className="text-white h1">
+                            Equipment
+                        </span>
+                        <span className="py-1">
+                            <span className="h3 text-bold"><a className="btn btn-primary btn-light rounded-pill" onClick={this.randomize}>Randomize</a></span>
+                        </span>
+                    </div>
+                    <div className="row">
+                        <Equipment equipment={this.state.equipmentHat} title="Hat" />
+                        <Equipment equipment={this.state.equipmentShirt} title="Shirt" />
+                        <Equipment equipment={this.state.equipmentShoes} title="Shoes" />
+                    </div>
+                </div>
+                <div className="col-md-12">
+                    <div className="d-flex justify-content-between">
+                        <span className="text-white h1">
+                            Features
+                        </span>
+                    </div>
+                    <div className="row">
+                        <Feature feature={this.state.featureGender} title="Gender" />
+                    </div>
+                </div>
+                <div className="col-md-12">
+                    <div className="d-flex justify-content-between">
+                        <span className="text-white h1">
+                            Colors
+                        </span>
+                    </div>
+                    <div className="row">
+                        <Feature feature={this.state.featureSkin} title="Skin" />
+                        <Feature feature={this.state.featureEyeColor} title="Eye Color" />
+                    </div>
                 </div>
             </div>
         );
     }
     //Events
     randomize() {
-        let equipmentHatId = getRandomInt(DataEquipmentHat.length);
-        let equipmentShirtId = getRandomInt(DataEquipmentShirt.length);
-        let equipmentShoesId = getRandomInt(DataEquipmentShoes.length);
+        let equipmentHatId = getRandomInt(DataEquipmentHat.length)+1;
+        let equipmentShirtId = getRandomInt(DataEquipmentShirt.length)+1;
+        let equipmentShoesId = getRandomInt(DataEquipmentShoes.length)+1;
+
+        featureGenderId = getRandomInt(DataFeatureGender.length)+1;
+        featureEyeColorId = getRandomInt(DataFeatureEyeColor.length)+1;
+        featureSkinId = getRandomInt(DataFeatureSkin.length)+1;
 
         this.setState({
             equipmentHat:DataEquipmentHat.find(equipment => equipment.equipmentId == equipmentHatId),
             equipmentShirt:DataEquipmentShirt.find(equipment => equipment.equipmentId == equipmentShirtId),
             equipmentShoes:DataEquipmentShoes.find(equipment => equipment.equipmentId == equipmentShoesId),
+            featureGender:DataFeatureGender.find(feature => feature.id == featureGenderId),
+            featureSkin:DataFeatureSkin.find(feature => feature.id == featureSkinId),
+            featureEyeColor:DataFeatureEyeColor.find(feature => feature.id == featureEyeColorId),
         })
     }
 }
 
 function getRandomInt(max) {
-    return Math.floor(Math.random() * Math.floor(max));
+    return Math.floor(Math.random() * max);
 }
 export default Character;

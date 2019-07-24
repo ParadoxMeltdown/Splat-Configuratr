@@ -3,38 +3,31 @@ import React, { Component } from 'react';
 import DataBrand from '../data/brand.json'
 import { realpathSync } from 'fs';
 
-class Equipment extends React.Component {
+class Feature extends React.Component {
     constructor(props) {
         super(props);
         this.props = {
-            equipment: {
-                "equipmentId":0,
+            feature: {
+                "id":0,
                 "description":"",
-                "url":""
+                "imageURL":""
             },
             title: "",
         }
     }
 
     render() {
-        let equipmentItem = this.props.equipment;
-        if(equipmentItem == undefined) {
-            return;
+        let featureItem = this.props.feature;
+        if(featureItem == undefined) {
+            return null;
         }
         return (
-            <div className="col-sm-4">
+            <div className="col-sm-3">
                 <div className="card card-splat my-2">
-                    <img className="card-img-top p-4" src={equipmentItem.url} alt={equipmentItem.description} />
-                    <div className="card-body p-3 text-center">
+                    <img className="card-img-top pt-4 px-4" src={featureItem.imageURL} alt={featureItem.description} />
+                    <div className="card-body px-4 pd-4 pt-0 text-center">
                         <div className="background-black bg-dark text-white">
                             {this.props.title}
-                        </div>
-                        <div className="h3">
-                            <span className="font-weight-bold">{equipmentItem.description}</span>
-                            <hr />
-                        </div>
-                        <div className="h6">
-                            <span className="">{equipmentItem.brand}&nbsp;</span>
                         </div>
                         <br />
                         <div>
@@ -47,22 +40,4 @@ class Equipment extends React.Component {
     }
 }
 
-class Brand extends React.Component {
-    constructor(props) {
-        super(props);
-        this.props = {
-            id: 0,
-            brandJSON: null,
-        }
-    }
-
-    render() {
-        let brandItem = DataBrand.find(brand => brand.brandId === this.props.id);
-
-        return (
-            <span><img src={brandItem.imgURL} style={{ width:"2em"}} alt={brandItem.description}/></span>
-        );
-    }
-}
-
-export default Equipment;
+export default Feature;
