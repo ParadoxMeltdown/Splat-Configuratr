@@ -33,7 +33,6 @@ class Character extends React.Component {
             equipmentShirt: {},
             equipmentShoes: {},
         }
-
         this.randomize = this.randomize.bind(this);
     }
     componentDidMount() {
@@ -41,7 +40,6 @@ class Character extends React.Component {
     }
     render() {
         //Clothes
-
         return (
             <div>
                 <div className="col-md-12">
@@ -54,9 +52,9 @@ class Character extends React.Component {
                         </span>
                     </div>
                     <div className="row">
-                        <Equipment equipment={this.state.equipmentHat} title="Hat" />
-                        <Equipment equipment={this.state.equipmentShirt} title="Shirt" />
-                        <Equipment equipment={this.state.equipmentShoes} title="Shoes" />
+                        <Equipment handleClick={() => {this.handleEquipmentRandomClick("equipmentHat")}} equipment={this.state.equipmentHat} title="Hat" />
+                        <Equipment handleClick={() => {this.handleEquipmentRandomClick("equipmentShirt")}} equipment={this.state.equipmentShirt} title="Shirt" />
+                        <Equipment handleClick={() => {this.handleEquipmentRandomClick("equipmentShoes")}} equipment={this.state.equipmentShoes} title="Shoes" />
                     </div>
                 </div>
                 <div className="col-md-12">
@@ -83,6 +81,33 @@ class Character extends React.Component {
             </div>
         );
     }
+    handleEquipmentRandomClick(equipment) {
+        if(equipment == "equipmentHat") {
+            let equipmentHatId = getRandomInt(DataEquipmentHat.length)+1;
+            if(DataEquipmentHat.length > 0) {
+                this.setState({
+                    equipmentHat:DataEquipmentHat.find(equipment => equipment.equipmentId == equipmentHatId)
+                })
+            }
+        }
+        else if(equipment == "equipmentShirt") {
+            let equipmentHatId = getRandomInt(DataEquipmentShirt.length)+1;
+            if(DataEquipmentShirt.length > 0) {
+                this.setState({
+                    equipmentShirt:DataEquipmentShirt.find(equipment => equipment.equipmentId == equipmentHatId)
+                })
+            }
+        }
+        else if(equipment == "equipmentShoes") {
+            let equipmentHatId = getRandomInt(DataEquipmentShoes.length)+1;
+            if(DataEquipmentShoes.length > 0) {
+                this.setState({
+                    equipmentShoes:DataEquipmentShoes.find(equipment => equipment.equipmentId == equipmentHatId)
+                })
+            }
+        }
+    }
+
     //Events
     randomize() {
         let equipmentHatId = getRandomInt(DataEquipmentHat.length)+1;

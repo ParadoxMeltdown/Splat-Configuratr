@@ -14,9 +14,9 @@ class Equipment extends React.Component {
                 "brand":"",
             },
             title: "",
+            handleClick: () => {},
         }
     }
-
     render() {
         let equipmentItem = this.props.equipment;
         if(equipmentItem == undefined) {
@@ -39,29 +39,11 @@ class Equipment extends React.Component {
                         </div>
                         <br />
                         <div>
-                            <a className="btn btn-block btn-splat rounded-pill text-white"><span className="h4 text-bold">Randomize</span></a>
+                            <a className="btn btn-block btn-splat rounded-pill text-white" onClick={this.props.handleClick}><span className="h4 text-bold">Randomize</span></a>
                         </div>
                     </div>
                 </div>
             </div>
-        );
-    }
-}
-
-class Brand extends React.Component {
-    constructor(props) {
-        super(props);
-        this.props = {
-            id: 0,
-            brandJSON: null,
-        }
-    }
-
-    render() {
-        let brandItem = DataBrand.find(brand => brand.brandId === this.props.id);
-
-        return (
-            <span><img src={brandItem.imgURL} style={{ width:"2em"}} alt={brandItem.description}/></span>
         );
     }
 }
