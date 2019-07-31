@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "genderId": 1,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Topknot",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/2/24/S2_Customization_Inkling_Male_Hair_1_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/9/99/S2_Customization_Inkling_Male_Hair_1_Back.png"
+    },
+    {
+        "id": 2,
+        "genderId": 1,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Slick",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/b/b3/S2_Customization_Inkling_Male_Hair_2_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/f/fc/S2_Customization_Inkling_Male_Hair_2_Back.png"
+    },
+    {
+        "id": 3,
+        "genderId": 1,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Buzz-cut",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/0/04/S2_Customization_Inkling_Male_Hair_3_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/0/0f/S2_Customization_Inkling_Male_Hair_3_Back.png"
+    },
+    {
+        "id": 4,
+        "genderId": 1,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Hipster",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/8/82/S2_Customization_Inkling_Male_Hair_4_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/3/3e/S2_Customization_Inkling_Male_Hair_4_Back.png"
+    },
+    {
+        "id": 5,
+        "genderId": 1,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Spiky-Haired",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/5/50/S2_Customization_Inkling_Male_Hair_5_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/9/99/S2_Customization_Inkling_Male_Hair_5_Back.png"
+    },
+    {
+        "id": 6,
+        "genderId": 1,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Mush-Cut",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/9/95/S2_Customization_Inkling_Male_Hair_6_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/f/f8/S2_Customization_Inkling_Male_Hair_6_Back.png"
+    },
+    {
+        "id": 6,
+        "genderId": 2,
+        "descriptionRace": "Octoling",
+        "descriptionStyle": "Tentacurl",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/c/cd/S2_Customization_Octoling_Female_Hair_1_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/1/1d/S2_Customization_Octoling_Female_Hair_1_Back.png"
+    },
+    {
+        "id": 7,
+        "genderId": 2,
+        "descriptionRace": "Octoling",
+        "descriptionStyle": "Pony",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/2/2f/S2_Customization_Octoling_Female_Hair_2_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/3/3b/S2_Customization_Octoling_Female_Hair_2_Back.png"
+    },
+    {
+        "id": 8,
+        "genderId": 1,
+        "descriptionRace": "Octoling",
+        "descriptionStyle": "Punk",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/2/28/S2_Customization_Octoling_Male_Hair_1_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/2/2b/S2_Customization_Octoling_Male_Hair_1_Back.png"
+    },
+    {
+        "id": 9,
+        "genderId": 1,
+        "descriptionRace": "Octoling",
+        "descriptionStyle": "Afro",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/0/04/S2_Customization_Octoling_Male_Hair_2_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/5/5d/S2_Customization_Octoling_Male_Hair_2_Back.png"
+    },
+    {
+        "id": 10,
+        "genderId": 2,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Hippie",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/8/87/S2_Customization_Inkling_Female_Hair_1_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/8/89/S2_Customization_Inkling_Female_Hair_1_Back.png"
+    },
+    {
+        "id": 11,
+        "genderId": 2,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Haircut",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/f/f4/S2_Customization_Inkling_Female_Hair_2_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/0/03/S2_Customization_Inkling_Female_Hair_2_Back.png"
+    },
+    {
+        "id": 12,
+        "genderId": 2,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Double-Bun",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/d/de/S2_Customization_Inkling_Female_Hair_3_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/5/5e/S2_Customization_Inkling_Female_Hair_3_Back.png"
+    },
+    {
+        "id": 13,
+        "genderId": 2,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Wave",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/3/3e/S2_Customization_Inkling_Female_Hair_4_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/b/b0/S2_Customization_Inkling_Female_Hair_4_Back.png"
+    },
+    {
+        "id": 14,
+        "genderId": 2,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Pigtail",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/c/ce/S2_Customization_Inkling_Female_Hair_5_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/d/d3/S2_Customization_Inkling_Female_Hair_5_Back.png"
+    },
+    {
+        "id": 15,
+        "genderId": 2,
+        "descriptionRace": "Inkling",
+        "descriptionStyle": "Banger",
+        "imageURLFront": "https://cdn.wikimg.net/en/splatoonwiki/images/3/3f/S2_Customization_Inkling_Female_Hair_6_Front.png",
+        "imageURLBack": "https://cdn.wikimg.net/en/splatoonwiki/images/e/e8/S2_Customization_Inkling_Female_Hair_6_Back.png"
+    }
+]

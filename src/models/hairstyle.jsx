@@ -1,15 +1,19 @@
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
+import DataBrand from '../data/brand.json'
 import { realpathSync } from 'fs';
 
-class hairstyle extends React.Component {
+class Feature extends React.Component {
     constructor(props) {
         super(props);
         this.props = {
             feature: {
                 "id":0,
-                "description":"",
-                "imageURL":""
+                "genderId":0,
+                "descriptionRace":"",
+                "descriptionStyle":"",
+                "imageURLFront":"",
+                "imageURLBack":""
             },
             title: "",
             handleClick: () => {},
@@ -22,12 +26,15 @@ class hairstyle extends React.Component {
             return null;
         }
         return (
-            <div className="col-sm-3">
+            <div className="col-sm-6">
                 <div className="card card-splat my-2">
-                    <img className="card-img-top pt-4 px-4" src={featureItem.imageURL} alt={featureItem.description} />
+                    <div class="card-img-top pt-4 px-4">
+                        <img style={{width:'50%'}} src={featureItem.imageURLFront} alt={featureItem.descriptionRace + ' ' + featureItem.descriptionStyle} />
+                        <img style={{width:'50%'}} src={featureItem.imageURLBack} alt={featureItem.descriptionRace + ' ' + featureItem.descriptionStyle} />
+                    </div>
                     <div className="card-body px-4 pd-4 pt-0 text-center">
                         <div className="background-black bg-dark text-white">
-                            {this.props.title}
+                            {this.props.title} : {featureItem.descriptionRace + ' / ' + featureItem.descriptionStyle}
                         </div>
                         <br />
                         <div>
@@ -40,4 +47,4 @@ class hairstyle extends React.Component {
     }
 }
 
-export default hairstyle;
+export default Feature;

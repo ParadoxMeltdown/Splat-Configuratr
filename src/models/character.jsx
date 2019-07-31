@@ -8,15 +8,12 @@ import DataEquipmentShoes from '../data/equipment-shoes.json'
 import DataFeatureEyeColor from '../data/eyeColor.json'
 import DataFeatureGender from '../data/gender.json'
 import DataFeatureSkin from '../data/skin.json'
+import DataFeatureHairstyle from '../data/hairstyle.json'
 
 
 import Equipment from './equipment'
 import Feature from './feature'
-
-
-var featureGenderId = 1
-var featureEyeColorId = 1;
-var featureSkinId = 1;
+import HairStyle from './hairstyle';
 
 class Character extends React.Component {
     constructor(props) {
@@ -29,6 +26,7 @@ class Character extends React.Component {
             featureGender: {},
             featureSkin: {},
             featureEyeColor: {},
+            featureHairstyle: {},
             equipmentHat: {},
             equipmentShirt: {},
             equipmentShoes: {},
@@ -52,9 +50,9 @@ class Character extends React.Component {
                         </span>
                     </div>
                     <div className="row">
-                        <Equipment handleClick={() => {this.handleEquipmentRandomClick("equipmentHat")}} equipment={this.state.equipmentHat} title="Hat" />
-                        <Equipment handleClick={() => {this.handleEquipmentRandomClick("equipmentShirt")}} equipment={this.state.equipmentShirt} title="Shirt" />
-                        <Equipment handleClick={() => {this.handleEquipmentRandomClick("equipmentShoes")}} equipment={this.state.equipmentShoes} title="Shoes" />
+                        <Equipment handleClick={() => {this.handleEquipmentRandomClick("Hat")}} equipment={this.state.equipmentHat} title="Hat" />
+                        <Equipment handleClick={() => {this.handleEquipmentRandomClick("Shirt")}} equipment={this.state.equipmentShirt} title="Shirt" />
+                        <Equipment handleClick={() => {this.handleEquipmentRandomClick("Shoes")}} equipment={this.state.equipmentShoes} title="Shoes" />
                     </div>
                 </div>
                 <div className="col-md-12">
@@ -64,7 +62,8 @@ class Character extends React.Component {
                         </span>
                     </div>
                     <div className="row">
-                        <Feature feature={this.state.featureGender} title="Gender" />
+                        <Feature handleClick={() => {this.handleFeatureRandomClick("Gender")}} feature={this.state.featureGender} title="Gender" />
+                        <HairStyle handleClick={() => {this.handleFeatureRandomClick("Hairstyle")}} feature={this.state.featureHairstyle} title="Hairstyle" />
                     </div>
                 </div>
                 <div className="col-md-12">
@@ -74,57 +73,92 @@ class Character extends React.Component {
                         </span>
                     </div>
                     <div className="row">
-                        <Feature feature={this.state.featureSkin} title="Skin" />
-                        <Feature feature={this.state.featureEyeColor} title="Eye Color" />
+                        <Feature handleClick={() => {this.handleFeatureRandomClick("Skin")}} feature={this.state.featureSkin} title="Skin" />
+                        <Feature handleClick={() => {this.handleFeatureRandomClick("Eye Color")}} feature={this.state.featureEyeColor} title="Eye Color" />
                     </div>
                 </div>
             </div>
         );
     }
-    handleEquipmentRandomClick(equipment) {
-        if(equipment == "equipmentHat") {
-            let equipmentHatId = getRandomInt(DataEquipmentHat.length)+1;
-            if(DataEquipmentHat.length > 0) {
+    handleEquipmentRandomClick(equipmentType) {
+        let index = 0;
+
+        if(equipmentType == "Hat") {
+            index = getRandomInt(DataEquipmentHat.length);
                 this.setState({
-                    equipmentHat:DataEquipmentHat.find(equipment => equipment.equipmentId == equipmentHatId)
+                    equipmentHat:DataEquipmentHat[index]
                 })
-            }
         }
-        else if(equipment == "equipmentShirt") {
-            let equipmentHatId = getRandomInt(DataEquipmentShirt.length)+1;
-            if(DataEquipmentShirt.length > 0) {
-                this.setState({
-                    equipmentShirt:DataEquipmentShirt.find(equipment => equipment.equipmentId == equipmentHatId)
-                })
-            }
+        else if(equipmentType == "Shirt") {
+            index = getRandomInt(DataEquipmentShirt.length);
+            this.setState({
+                equipmentShirt:DataEquipmentShirt[index]
+            })
         }
-        else if(equipment == "equipmentShoes") {
-            let equipmentHatId = getRandomInt(DataEquipmentShoes.length)+1;
-            if(DataEquipmentShoes.length > 0) {
-                this.setState({
-                    equipmentShoes:DataEquipmentShoes.find(equipment => equipment.equipmentId == equipmentHatId)
-                })
-            }
+        else if(equipmentType == "Shoes") {
+            index = getRandomInt(DataEquipmentShoes.length);
+            this.setState({
+                equipmentShoes:DataEquipmentShoes[index]
+            })
+        }
+    }
+    handleFeatureRandomClick(featureType) {
+        let index = 0;
+
+        if(featureType == "Gender") {
+            index = getRandomInt(DataFeatureGender.length);
+
+            let genderObject = DataFeatureGender[index]
+            let dataHairstyleSet = DataFeatureHairstyle.filter(feature => {return (feature.genderId == genderObject.id)});
+            let hairstyleIndex = getRandomInt(dataHairstyleSet.length);
+
+            this.setState({
+                featureGender:genderObject,
+                featureHairstyle:dataHairstyleSet[hairstyleIndex]
+            })
+        }
+        else if(featureType == "Skin") {
+            index = getRandomInt(DataFeatureSkin.length);
+            this.setState({
+                featureSkin:DataFeatureSkin[index]
+            })
+        }
+        else if(featureType == "Eye Color") {
+            index = getRandomInt(DataFeatureEyeColor.length);
+            this.setState({
+                featureEyeColor:DataFeatureEyeColor[index]
+            })
+        }
+        else if(featureType == "Hairstyle") {
+            index = getRandomInt(DataFeatureHairstyle.length);
+            this.setState({
+                featureHairstyle:DataFeatureHairstyle[index]
+            })
         }
     }
 
     //Events
     randomize() {
-        let equipmentHatId = getRandomInt(DataEquipmentHat.length)+1;
-        let equipmentShirtId = getRandomInt(DataEquipmentShirt.length)+1;
-        let equipmentShoesId = getRandomInt(DataEquipmentShoes.length)+1;
+        let equipmentHatIndex = getRandomInt(DataEquipmentHat.length);
+        let equipmentShirtIndex = getRandomInt(DataEquipmentShirt.length);
+        let equipmentShoesIndex = getRandomInt(DataEquipmentShoes.length);
 
-        featureGenderId = getRandomInt(DataFeatureGender.length)+1;
-        featureEyeColorId = getRandomInt(DataFeatureEyeColor.length)+1;
-        featureSkinId = getRandomInt(DataFeatureSkin.length)+1;
+        let featureGenderIndex = getRandomInt(DataFeatureGender.length);
+        let featureEyeColorIndex = getRandomInt(DataFeatureEyeColor.length);
+        let featureSkinIndex = getRandomInt(DataFeatureSkin.length);
+
+        let genderObject = DataFeatureGender[featureGenderIndex]
+        let dataHairstyleSet = DataFeatureHairstyle.filter(feature => {return (feature.genderId == genderObject.id)});
+        let featureHairStyleId = getRandomInt(dataHairstyleSet.length);
 
         this.setState({
-            equipmentHat:DataEquipmentHat.find(equipment => equipment.equipmentId == equipmentHatId),
-            equipmentShirt:DataEquipmentShirt.find(equipment => equipment.equipmentId == equipmentShirtId),
-            equipmentShoes:DataEquipmentShoes.find(equipment => equipment.equipmentId == equipmentShoesId),
-            featureGender:DataFeatureGender.find(feature => feature.id == featureGenderId),
-            featureSkin:DataFeatureSkin.find(feature => feature.id == featureSkinId),
-            featureEyeColor:DataFeatureEyeColor.find(feature => feature.id == featureEyeColorId),
+            equipmentHat:DataEquipmentHat[equipmentHatIndex],
+            equipmentShirt:DataEquipmentShirt[equipmentShirtIndex],
+            equipmentShoes:DataEquipmentShoes[equipmentShoesIndex],
+            featureGender:genderObject,
+            featureSkin:DataFeatureSkin[featureSkinIndex],
+            featureEyeColor:DataFeatureEyeColor[featureEyeColorIndex],
+            featureHairstyle:dataHairstyleSet[featureHairStyleId],
         })
     }
 }
